@@ -25,3 +25,4 @@ if (day == 5)
 {
     Console.WriteLine("пятница");
 }
+
