@@ -9,8 +9,8 @@ Console.Write("Введите число a: ");
 int b = int.Parse(Console.ReadLine());
 int max;
 if(a>b){
-    Console.WriteLine($"max = {a}");
+    Console.WriteLine($"max = {a} min = {b}");
 } else {
-    Console.WriteLine($"max = {b}");
+    Console.WriteLine($"max = {b} min = {a}");
 }
 
