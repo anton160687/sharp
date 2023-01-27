@@ -5,7 +5,7 @@
 Console.Clear();
 Console.Write("Введите число a: ");
 int a = int.Parse(Console.ReadLine());
-Console.Write("Введите число a: ");
+Console.Write("Введите число b: ");
 int b = int.Parse(Console.ReadLine());
 int max;
 if(a>b){
