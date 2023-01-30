@@ -1,2 +1,19 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿//**Задача 14:**
+
+//Напишите программу, которая принимает на вход число и проверяет, кратно ли оно одновременно 7 и 23.
+
+//14  ->  нет
+//46  ->  нет
+//161 ->  да
+
+Console.Clear();
+Console.Write("Введите число 1: ");
+int a = int.Parse(Console.ReadLine());
+int b = a % 7;
+int c = a % 23;
+if(b==0 && c==0) {
+    Console.Write($"кратно одновременно 7 и 23");
+} else
+{
+    Console.Write($"не кратно одновременно 7 и 23");
+}
