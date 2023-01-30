@@ -1,2 +1,18 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// Задача 13: Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
+
+// 645 -> 5
+
+// 78 -> третьей цифры нет
+
+// 32679 -> 6
+
+Console.Clear();
+Console.Write("Введите число: ");
+int a = int.Parse(Console.ReadLine());
+a = a % 1000;
+if (a / 100 == 0 ) {
+    Console.Write($"В {a} третьей цифры нет ");
+} else {
+    a = a / 100 % 100;
+    Console.Write($"Третья цифра числа равна {a}");
+}
