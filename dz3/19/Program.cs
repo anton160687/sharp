@@ -3,6 +3,7 @@
 // 14212 -> нет
 // 12821 -> да
 // 23432 -> да
+Console.Clear();
 Console.WriteLine("Введите пятизначное число:");
 string num = Console.ReadLine();
 if (num.Length == 5)
